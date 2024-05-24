@@ -10,7 +10,7 @@
         Dim Pesan As Byte
         Pesan = MsgBox("Apakah anda ingin keluar dari aplikasi?", vbYesNo)
         If Pesan = vbYes Then
-            Close()
+            End
         End If
     End Sub
 End Class
