@@ -16,4 +16,10 @@ Public Class Form_Database
             Connection.Open()
         End If
     End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim FR_Utama As New Form_Utama
+        FR_Utama.Show()
+        Me.Close()
+    End Sub
 End Class

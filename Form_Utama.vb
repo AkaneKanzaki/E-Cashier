@@ -13,4 +13,10 @@
             End
         End If
     End Sub
+
+    Private Sub DatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DatabaseToolStripMenuItem.Click
+        Dim FR_Database As New Form_Database
+        FR_Database.Show()
+        Me.Hide()
+    End Sub
 End Class
