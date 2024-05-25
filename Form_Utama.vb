@@ -19,4 +19,5 @@
         FR_Database.Show()
         Me.Hide()
     End Sub
+
 End Class

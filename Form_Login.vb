@@ -1,4 +1,5 @@
 ﻿Public Class Form_Login
+
     Private Sub Btn_Keluar_Click(sender As Object, e As EventArgs) Handles Btn_Keluar.Click
         Dim Pesan As Byte
         Pesan = MsgBox("Apakah anda ingin keluar dari aplikasi?", vbYesNo)
@@ -22,4 +23,5 @@
             End If
         End If
     End Sub
+
 End Class

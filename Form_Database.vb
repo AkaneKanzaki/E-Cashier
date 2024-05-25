@@ -8,7 +8,6 @@ Public Class Form_Database
     Public Str As String
     Public Sql As String
 
-
     Public Sub OpenConnection()
         Str = "Driver={MySQL ODBC 3.51 Driver};database=dbtoko;server=localhost;uid=root"
         Connection = New OdbcConnection(Str)

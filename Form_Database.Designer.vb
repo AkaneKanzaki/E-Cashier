@@ -322,9 +322,9 @@ Partial Class Form_Database
         'Button7
         '
         Me.Button7.Font = New System.Drawing.Font("Montserrat Medium", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(694, 9)
+        Me.Button7.Location = New System.Drawing.Point(689, 9)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(94, 31)
+        Me.Button7.Size = New System.Drawing.Size(99, 31)
         Me.Button7.TabIndex = 3
         Me.Button7.Text = "Kembali"
         Me.Button7.UseVisualStyleBackColor = True
